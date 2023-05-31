@@ -18,3 +18,9 @@ export const API_PREFIX = '/api';
 export const LOCALE_COOKIE_NAME = 'locale'
 
 export const DEFAULT_VALUE_MAX_LEN = 48
+
+export const WEB_API_CORS_ALLOW_ORIGINS: '*'
+export const CONSOLE_CORS_ALLOW_ORIGINS: '*'
+export const COOKIE_HTTPONLY: 'true'
+export const COOKIE_SAMESITE: 'Lax'
+export const COOKIE_SECURE: 'false'
